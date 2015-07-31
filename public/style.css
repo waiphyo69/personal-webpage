@@ -16,6 +16,12 @@ blockquote {
   font-size: 1em;
 }
 
+.group:after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
 .container{
   margin-top: 80px;
   margin-bottom: 15px;
@@ -169,6 +175,16 @@ blockquote {
   background: #eee;
   border-bottom: 1px solid #ccc;
   border-right: 1px solid #ccc;
+  display: block;
+  float: left;
+}
+
+.job .project-img {
+  float: right;
+  display: block;
+  margin: 15px;
+  width: 200px;
+  height: 30px;
 }
 .job .where{
   font-size: 1.2em;
